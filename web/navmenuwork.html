@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Milan Dhakal &#8211; EcoMilan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-bar-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .site-header h1, .site-header h2 {
+            margin: 5px 0;
+        }
+
+        .font-controls {
+            margin: 10px 0;
+        }
+
+        .font-controls button {
+            padding: 5px 10px;
+            margin: 0 5px;
+            border: none;
+            background: #444;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .font-controls button:hover {
+            background: #555;
+        }
+
+        .menu-bar-container {
+            width: 100%;
+            background: #444;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        .nav-menu li {
+            margin: 0 15px;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: #f0a500;
+        }
+
+        .cover-photo {
+            position: relative;
+            text-align: center;
+        }
+
+        .cover-photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .pinfo {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+        }
+
+        .additional-text, .about-me-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-media-links ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .social-media-links li {
+            margin: 0 10px;
+        }
+
+        .social-media-links a {
+            color: black;
+            font-size: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+                background: #444;
+                padding: 10px;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-menu li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar-container">
+        <header class="site-header">
+            <h1>Milan Dhakal</h1>
+            <h2>EcoMilan</h2>
+        </header>
+        <div class="font-controls">
+            <button id="font-increase" title="Increase Font Size">A+</button>
+            <button id="font-decrease" title="Decrease Font Size">A−</button>
+        </div>
+        <nav class="menu-bar-container">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul id="menu-bar" class="nav-menu">
+                <li><a href="education.html">Education and Skills</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="projects.html">Projects and Internships</a></li>
+                <li><a href="research.html">Research Experiences</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="cover-photo">
+        <img src="cover.jpg" class="img-fluid" alt="Cover Image">
+        <div class="pinfo">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="https://maps.app.goo.gl/DhKUhnYDUPCSq4Cp7" target="_blank" style="color: white; text-decoration: none;">
+                        Kaligandaki Rural Municipality, Gulmi, Nepal
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="additional-text">
+        <p>Welcome to my personal website, where I share my professional experiences, skills, and portfolio. Explore my projects, research, and more!</p>
+    </div>
+
+    <section id="cv" class="cv-section spad">
+        <div class="container text-center">
+            <a href="cv.pdf" target="_blank" class="btn btn-primary">View CV</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-me-section spad">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Milan Dhakal is a highly motivated and skilled individual with a strong background in environmental research, forest management, and geospatial analysis...
+            </p>
+        </div>
+    </section>
+
+    <div class="social-media-links">
+        <h3>Connect with me:</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/milan.2056/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="YOUR_INSTAGRAM_LINK" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/milan-dhakal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://x.com/DhakalMilan56" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/dhklmilan" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span>&copy; 2024 Milan Dhakal. All rights reserved.</span>
+            <span>All content is protected under license. Unauthorized use is prohibited.</span>
+        </div>
+    </footer>
+
+    <a href="#top" id="back-to-top" class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <script>
+        // Font size adjustment
+        let fontSize = 16;
+
+        document.getElementById('font-increase').addEventListener('click', () => {
+            fontSize += 2;
+            document.body.style.fontSize = fontSize + 'px';
+        });
+
+        document.getElementById('font-decrease').addEventListener('click', () => {
+            fontSize -= 2;
+            document.body.style.fontSize = fontSize + 'px';
+        });
+
+        // Toggle menu
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuBar = document.getElementById('menu-bar');
+
+        menuToggle.addEventListener('click', () => {
+            menuBar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Milan Dhakal &#8211; EcoMilan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="top-bar-container">
+        <header class="site-header">
+            <h1>Milan Dhakal</h1>
+            <h2>EcoMilan</h2>
+        </header>
+        <div class="font-controls">
+            <button id="font-increase" title="Increase Font Size">A+</button>
+            <button id="font-decrease" title="Decrease Font Size">A−</button>
+        </div>
+        <nav class="menu-bar-container">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul id="menu-bar" class="nav-menu">
+                <li><a href="education.html">Education and Skills</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="projects.html">Projects and Internships</a></li>
+                <li><a href="research.html">Research Experiences</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="cover-photo">
+        <img src="cover.jpg" class="img-fluid" alt="Cover Image">
+        <div class="pinfo">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="https://maps.app.goo.gl/DhKUhnYDUPCSq4Cp7" target="_blank" style="color: white; text-decoration: none;">
+                        Kaligandaki Rural Municipality, Gulmi, Nepal
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="additional-text">
+        <p>Welcome to my personal website, where I share my professional experiences, skills, and portfolio. Explore my projects, research, and more!</p>
+    </div>
+
+    <section id="cv" class="cv-section spad">
+        <div class="container text-center">
+            <a href="cv.pdf" target="_blank" class="btn btn-primary">View CV</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-me-section spad">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Milan Dhakal is a highly motivated and skilled individual with a strong background in environmental research, forest management, and geospatial analysis...
+            </p>
+        </div>
+    </section>
+
+    <div class="social-media-links">
+        <h3>Connect with me:</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/milan.2056/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="YOUR_INSTAGRAM_LINK" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/milan-dhakal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://x.com/DhakalMilan56" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/dhklmilan" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span>&copy; 2024 Milan Dhakal. All rights reserved.</span>
+            <span>All content is protected under license. Unauthorized use is prohibited.</span>
+        </div>
+    </footer>
+
+    <a href="#top" id="back-to-top" class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

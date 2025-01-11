@@ -1,0 +1,215 @@
+    <!DOCTYPE html>
+    <html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Milan Dhakal</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="top-bar-container">
+            <header class="site-header">
+                <div id="theme-button" class="theme-button">
+                    <button id="theme-switch" class="theme-switch" aria-label="Toggle Dark Mode">
+                        <!-- Light mode icon -->
+                        <svg id="light-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/>
+                        </svg>
+                        <!-- Dark mode icon -->
+                        <svg id="dark-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/>
+                        </svg>
+                      
+                          
+                          
+                    </button>
+                    
+                </div>
+                <h1> <i class="fas fa-home"></i><a href="index.html">Home</a></h1>
+                
+                
+            </header>
+            
+            <!-- Link your script correctly -->
+            <script src="script.js"></script>
+
+            <nav class="main-nav">
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul id="menu-bar" class="nav-menu">
+                    <li id="menu-item-128" class="menu-item"><a href="education.html">Education and Skills</a></li>
+                    <li id="menu-item-129" class="menu-item"><a href="portfolio.html">Portfolio</a></li>
+                    <li id="menu-item-130" class="menu-item"><a href="project.html">Projects</a></li>
+                    <li id="menu-item-132" class="menu-item"><a href="research.html">Research</a></li>
+                    <li id="menu-item-133" class="menu-item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script>
+            const menuToggle = document.getElementById('menu-toggle');
+            const menuBar = document.getElementById('menu-bar');
+
+            menuToggle.addEventListener('click', () => {
+                menuBar.classList.toggle('show');
+            });
+        </script>
+    </body>
+
+    <div class="cover-photo">
+        <img src="web/cover2.jpg" class="img-fluid" alt="Cover Image">
+        <div class="pinfo">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="https://maps.app.goo.gl/DhKUhnYDUPCSq4Cp7" target="_blank" style="color: white; text-decoration: none;">
+                        Kaligandaki Rural Municipality, Gulmi, Nepal
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Make sure you have Font Awesome linked in the head of your HTML file -->
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <div class="additional-text">
+        <span> Welcome to my personal website, where I share my professional experiences, skills, and portfolio.
+        Explore my projects, research, and more!</span>
+    </div>
+
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section spad">
+
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 text-center">
+                <a href="cv.pdf" target="_blank" class="btn btn-primary">View CV</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Email</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div class="email-container">
+        <a href= "https://mail.google.com/mail/?view=cm&fs=1&to=dhklmilan@gmail.com" class="email-link">dhklmilan@gmail.com</a>
+    
+
+    </div>
+    </body>
+    </html>
+
+    <hr class="separator2">
+
+    <!-- About Me Section -->
+    <section id="about" class="about-me-section spad">
+    <!-- Use 'container' instead of 'container-fluid' for centering -->
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                <h3>About Me</h3>                
+                <p>
+                    Welcome! I am Milan Dhakal, a passionate Forestry graduate dedicated to making a positive impact on the environment. 
+                    I was born and grew up in Khadgakot, Upallokoreng Deurali.
+                    A childhood spent roaming the forests of Bhutungre, which further solidified
+                    my desire to choose forestry and conservation as my career.
+                    <br><br>
+                    Some of my hobbies are Reading books and novels, writing, watching TV shows and movies, hiking, traveling, and photography.
+                    My forestry background provides a unique perspective on photography, especially nature-based and landscape photography, 
+                    allowing me to capture their beauty through my lens. I have included some of my photos in the gallery.
+                    <br><br>
+                    I am particularly interested in the nexus of GIS, remote sensing, and artificial intelligence, as well as how these technologies could be utilized to address challenging environmental issues. The stories that maps and cartography tell have always fascinated me.
+                    I recently contributed to the field of fire ecology with a publication in Geomatics, Natural Hazard and Risks.
+                    I'm excited to keep making contributions to the conservation Sector,  and I am actively engaged in research projects related to wildfire risk assessment, species distribution modeling, and wildlife conservation.
+                    <br><br>
+                    Think we could contribute together?? Feel free to drop me an email.
+                    <br><br>
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+    <!-- Social Media Links Section -->
+    <div class="social-media-links">
+    <p2></p2>
+    <ul>
+        <li><a href="https://www.facebook.com/milan.2056/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="YOUR_INSTAGRAM_LINK" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/milan-dhakal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://x.com/DhakalMilan56" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://github.com/dhklmilan" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+    </ul>
+    </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <!-- Content of the page goes here -->
+
+    <!-- Copyright Section -->
+    <footer class="footer">
+    <div class="footer-content">
+        <span>&copy; 2024 Milan Dhakal. All rights reserved.</span>
+        <span>All content is protected under license. Unauthorized use is prohibited.</span>
+    </div>
+    </footer>
+    </body>
+    </html>
+    </html>
+    <!-- Back to Top Arrow -->
+    <a href="#top" id="back-to-top" class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    </a>
+    <script>
+    // Show the "back to top" button when scrolled 200px down
+    window.onscroll = function() {
+        var backToTop = document.getElementById('back-to-top');
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            backToTop.classList.add('show');
+        } else {
+            backToTop.classList.remove('show');
+        }
+    };
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+    <!-- Make sure you have Font Awesome linked in the head of your HTML file -->
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+
+
+
+
+

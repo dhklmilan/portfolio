@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milan Dhakal &#8211; EcoMilan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="top-bar-container">
+        <header class="site-header">
+            <div id="theme-button" class="theme-button">
+                <button id="theme-switch" class="theme-switch" aria-label="Toggle Dark Mode">
+                    <!-- Light mode icon -->
+                    <svg id="light-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#e8eaed">
+                        <path
+                            d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z" />
+                    </svg>
+                    <!-- Dark mode icon -->
+                    <svg id="dark-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#e8eaed">
+                        <path
+                            d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z" />
+                    </svg>
+                </button>
+
+            </div>
+
+            <h1><a href="index.html">Milan Dhakal</a></h1>
+            <h2>EcoMilan</h2>
+        </header>
+
+        <!-- Link your script correctly -->
+        <script src="script.js"></script>
+
+        <nav class="main-nav">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul id="menu-bar" class="nav-menu">
+                <li id="menu-item-128" class="menu-item"><a href="education.html">Education and Skills</a></li>
+                <li id="menu-item-129" class="menu-item"><a href="portfolio.html">Portfolio</a></li>
+                <li id="menu-item-130" class="menu-item"><a href="project.html">Projects</a></li>
+                <li id="menu-item-132" class="menu-item"><a href="research.html">Research</a></li>
+                <li id="menu-item-133" class="menu-item"><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuBar = document.getElementById('menu-bar');
+
+        menuToggle.addEventListener('click', () => {
+            menuBar.classList.toggle('show');
+        });
+    </script>
+</body>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" />
+
+
+
+
+<h4 class="re-heading">Research Publication </h4>
+
+
+ <!-- Include Research Sections -->
+<div id="research-sections">
+    <!-- Research Section 1 -->
+    <section id="research-section-1">
+        <!-- Section content dynamically loaded or added -->
+    </section>
+</div>
+
+<!-- Publication Section -->
+<section class="publication-section">
+    <!-- Research Section 1 -->
+    <div class="research-content">
+        <div class="text-container">
+            <h6>Synergistic approaches in forest fire risk mapping using fuzzy AHP and machine learning models in the Chure Tarai Madhesh Landscape (CTML) of Nepal</h6>
+            <div class="subtitle">Dhakal, M., Bhatta, B., Lamichhane, P., Parajulli, A.<br> Published in <i>geomatics journal of natural hazards and risk</i></div>
+
+        </div>
+        <div class="button-container">
+            <button class="toggle-button"  onclick="window.location.href = 'https://www.tandfonline.com/doi/full/10.1080/19475705.2024.2436540';">Read Full Text</button>
+        </div>
+    </div>
+
+    <!-- Research Section 2 -->
+    <div class="research-content">
+        <div class="text-container">
+            <h6>How Will the Climate Change Shift the Suitable Area of Seven Woody Bamboo Species in Nepal? Evidences from Ensemble Species Distribution Modeling.</h6>
+             <div class="subtitle">Pokhrel, S., Neupane, P., Paudel, N., Dhakal, M., Lamichhane, P., Khadka. A. <br>To be submitted to <i> Ecology and Evolution</i> </div> 
+            
+        </div>
+        <div class="button-container">
+            <button class="toggle-button" onclick="window.location.href = 'bamboo.html';">Read Full Text</button>
+        </div>
+    </div>
+
+    <!-- Research Section 3 -->
+    <div class="research-content">
+        <div class="text-container">
+            <h6>Forest Fire Risk Assessment using Multi-Criteria Decision Analysis and Earth Observation Technique in Mountain Regions: Insights from Rasuwa District, Nepal</h6>
+            <div class="subtitle">Kunwar, s., Dhakal, M., Silwal, R. 
+                <br> To be submitted to <i> Ecology and Evolution</i></div>
+            <p> Rasuwa District, located in Nepal's central Himalayan region, is highly vulnerable to forest fires due to its rugged terrain, dense vegetation, and climatic variability. This research uses remote sensing and GIS to identify fire-prone areas, considering factors such as topography, climatic, anthropogenic, and biophysical. Anthropogenic activities, including proximity to roads and settlements, significantly contribute to fire risks. The findings reveal that lower-altitude areas with high human activity are most susceptible, particularly during dry seasons with prolonged low rainfall. The study highlights the need for early warning systems, community awareness, and sustainable land-use practices to mitigate fire risks. By providing a detailed fire risk map, the research aids policymakers in prioritizing high-risk zones and allocating resources effectively, contributing to forest conservation and community safety.</p>
+       
+        </div>
+        <div class="button-container">
+            <button class="toggle-button" onclick="window.location.href = 'fulltext.html';">Read Full Text</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- Research Experience 3 -->
+<div class="Research Experience-section">
+    <h4 class="re-heading">Research Experiences</h4>
+
+
+
+    <!-- Research Section: Distribution of Red Panda in Nepal -->
+<section class="research">
+    <div class="research-content">
+        <div class="text-container">
+            <h6>Distribution of Red Panda Gaurishankar Conservation Area (GCA)</h6>
+            <p>The Red Panda, a charismatic and endangered species, inhabits the temperate forests of Nepal. This research highlights habitat preferences, threats from habitat fragmentation, and conservation efforts. The study integrates GIS-based mapping and ecological assessments to identify key regions crucial for Red Panda conservation in Gaurishankar Conservation Area (GCA), Nepal.</p>
+        </div>
+        
+        <!-- Button Container aligned to the right -->
+        <div class="button-container">
+            <button class="toggle-button" onclick="window.location.href = 'panda.html';">Read Full Text</button>
+            
+        </div>
+    </div>
+</section>
