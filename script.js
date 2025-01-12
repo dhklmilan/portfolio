@@ -4,8 +4,13 @@ const body = document.body;
 
 // Check localStorage for saved theme
 const savedTheme = localStorage.getItem('theme');
-if (savedTheme === 'dark-theme') {
+
+// Set the default theme to dark if no theme is saved
+if (savedTheme === 'dark-theme' || !savedTheme) {
     body.classList.add('dark-theme');
+    localStorage.setItem('theme', 'dark-theme'); // Save the default dark theme
+} else {
+    body.classList.remove('dark-theme');
 }
 
 // Toggle theme and update localStorage
@@ -16,15 +21,9 @@ themeSwitch.addEventListener('click', () => {
     if (body.classList.contains('dark-theme')) {
         localStorage.setItem('theme', 'dark-theme');
     } else {
-        localStorage.removeItem('theme');
+        localStorage.setItem('theme', 'light-theme');
     }
 });
 
 
-const navLinks = document.querySelectorAll('.nav-menu li a');
 
-navLinks.forEach(link => {
-    if (link.href === window.location.href) {
-        link.classList.add('active');
-    }
-});
