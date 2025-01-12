@@ -2378,8 +2378,6 @@ body {
   /* Individual Grid Item */
   .grid-item {
     background: linear-gradient(135deg, #3E5151, #DECBA4);
-
-
     color: #fff;
     padding: 20px;
     border-radius: 15px;
@@ -2401,7 +2399,6 @@ body {
     font-size: 18px;
     margin: 0 0 10px;
    font-weight: 600;
-    
     letter-spacing: 1px;
     text-align: justify;
     
