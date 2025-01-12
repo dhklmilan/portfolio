@@ -1917,7 +1917,7 @@ body {
     .theme-button {
         position: fixed; /* Fixed position */
         top: 2px; /* Distance from the top */
-        left: 980px; /* Default distance from the right */
+        left: 1180px; /* Default distance from the right */
         display: flex;
         align-items: center;
         gap: 10px; /* Spacing between elements */
@@ -2001,20 +2001,20 @@ body {
     display: none;
     background-color: #007BFF;
     color: white;
-    width: 40px; /* Reduced width */
-    height: 40px; /* Reduced height */
+    width: 50px; /* Reduced width */
+    height: 50px; /* Reduced height */
     border-radius: 50%;
     text-align: center;
-    line-height: 30px; /* Match line-height to height for vertical centering */
+    line-height: 32px; /* Match line-height to height for vertical centering */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
     transition: opacity 0.3s, transform 0.3s;
     cursor: pointer;
     z-index: 1000;
-    font-size: 2rem; /* Reduced font size of the button's text if any*/
+    font-size: 3rem; /* Reduced font size of the button's text if any*/
     }
 
     #back-to-top i {
-    font-size: 1rem; /* Reduced icon size */
+    font-size: 1.6rem; /* Reduced icon size */
     }
 
     #back-to-top.show {
