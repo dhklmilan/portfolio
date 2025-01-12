@@ -1917,7 +1917,7 @@ body {
     .theme-button {
         position: fixed; /* Fixed position */
         top: 2px; /* Distance from the top */
-        left: 1060px; /* Default distance from the right */
+        left: 1020px; /* Default distance from the right */
         display: flex;
         align-items: center;
         gap: 10px; /* Spacing between elements */
