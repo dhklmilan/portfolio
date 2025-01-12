@@ -273,16 +273,17 @@ body.dark-theme #dark-icon {
 
 
 /* portfolio section(no need to make responsive) */
-.portfolio {
-    padding: 5px;
-    font-family: sans-serif;
-    margin-top: 60px;    
-}
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
-    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
     
   
 }
@@ -296,12 +297,15 @@ body.dark-theme #dark-icon {
 
 .project {
     border: 1px solid #ccc;
-    padding: 8px;
-   background-color: #7f9dbd;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    transition: transform 0.2s; /* Add a smooth transition for hover effect */
-    margin: 10px auto;
-   
+    background-color: #7f9dbd;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
     
 }
 
@@ -856,6 +860,13 @@ body.dark-theme .social-media-links li a:hover {
     display: block; /* Ensures h8 takes its own line */
     font-family: 'Open Sans', sans-serif;;
 }
+.skill-item h9 {
+        margin: 4px 0;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+        font-family: 'Open Sans', sans-serif;
+    }
 
 
 .skill-item p {
@@ -865,7 +876,7 @@ body.dark-theme .social-media-links li a:hover {
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;;
-    /* Improves readability */
+   
 }
 
 .skill-icon:hover {
@@ -1608,6 +1619,15 @@ body {
     }
 
 
+    .skill-item h9 {
+        margin: 4px 0;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
     .skill-item p {
         font-size: 14px;
         color: #555;
@@ -2113,6 +2133,14 @@ body {
         font-family: 'Open Sans', sans-serif;;
     }
 
+    .skill-item h9 {
+        margin: 6px 0;
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.6;
+        font-family: 'Open Sans', sans-serif;
+    }
+
 
     .skill-item p {
         font-size: 15px;
@@ -2343,7 +2371,6 @@ body {
     padding: 20px;
     margin: 0 auto;
     max-width: 1200px;
-   
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
