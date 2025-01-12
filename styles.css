@@ -283,7 +283,7 @@ body.dark-theme #dark-icon {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Responsive grid */
     grid-gap: 5px;
     
   
