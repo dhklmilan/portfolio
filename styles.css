@@ -277,13 +277,15 @@ body.dark-theme #dark-icon {
     padding: 5px;
     font-family: sans-serif;
     margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
         
       
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive grid */
     grid-gap: 5px;
     
   
