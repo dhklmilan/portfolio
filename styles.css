@@ -274,19 +274,7 @@ body.dark-theme #dark-icon {
 
 /* portfolio section(no need to make responsive) */
 
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 0px;
-    
-  
-}
+
 
 .project-link{
     text-decoration: none; /* Remove underline from the link */
