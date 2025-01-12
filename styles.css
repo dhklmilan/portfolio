@@ -276,13 +276,17 @@ body.dark-theme #dark-icon {
 .portfolio {
     padding: 5px;
     font-family: sans-serif;
-    margin-top: 60px;        
+    margin-top: 60px;
+        
+      
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat( minmax(350px, 1fr)); /* Responsive grid */
-    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
+    grid-gap: 5px;
+    
+  
 }
 
 .project-link{
