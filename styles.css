@@ -2373,9 +2373,9 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
   
-  /* Individual Grid Item */
+  /* Individual Grid Item  */
   .grid-item {
-    background: linear-gradient(135deg, #3E5151, #DECBA4);
+    background: linear-gradient(135deg, #28313b, #485461);
     color: #fff;
     padding: 20px;
     border-radius: 15px;
@@ -2414,7 +2414,7 @@ body {
     font-size: 1rem;
     line-height: 1.6;
     text-align: justify;
-
+    color: #fdfdfd;
     margin: auto;
     height: auto; 
     flex-direction: column;
