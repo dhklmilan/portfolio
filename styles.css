@@ -288,6 +288,7 @@ body.dark-theme #dark-icon {
     grid-template-columns: repeat( minmax(500px, 1fr)); /* Responsive grid */
     grid-gap: 5px;
     margin-left: 60px;
+    margin-right: 90px;
     
   
 }
