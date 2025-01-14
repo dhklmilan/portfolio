@@ -1245,7 +1245,7 @@ body {
     .theme-button {
             position: fixed; /* Fixed position */
             top: 2px; /* Distance from the top */
-            left: 740px; /* Default distance from the right */
+            left: 730px; /* Default distance from the right */
             display: flex;
             align-items: center;
             gap: 8px; /* Spacing between elements */
@@ -1894,7 +1894,7 @@ body {
     flex: 1;
     display: flex; /* Make nav a flex container */
     justify-content: flex-end;
-    margin-left: 15em; /* Align items to the right milaune left right */
+    margin-left: 12em; /* Align items to the right milaune left right */
     }
 
     .nav-menu {
@@ -1917,7 +1917,7 @@ body {
     .theme-button {
         position: fixed; /* Fixed position */
         top: 2px; /* Distance from the top */
-        left: 1020px; /* Default distance from the right */
+        left: 970px; /* Default distance from the right */
         display: flex;
         align-items: center;
         gap: 10px; /* Spacing between elements */
