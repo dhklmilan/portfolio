@@ -1466,7 +1466,7 @@ body {
         margin: 0;
         display: flex;
         justify-content: center; /* Center the list horizontally */
-        gap: 1rem; /* Space between icons */
+        gap: 1.2rem; /* Space between icons */
         flex-wrap: wrap; /* Allow wrapping on smaller screens */
     }
 
